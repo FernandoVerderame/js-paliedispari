@@ -55,3 +55,7 @@ function generateRandomNumber() {
 
 const random = generateRandomNumber();
 console.log("Numero random del computer:", random);
+
+// Somma dei due numeri
+const sum = userNumber + random;
+console.log("La somma è:", sum);
