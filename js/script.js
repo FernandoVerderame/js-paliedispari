@@ -1,3 +1,4 @@
+// ! ESERCIZIO 1
 // Chiedere all'utente una parola
 const userWord = prompt('Inserisci una parola').trim();
 console.log("Parola dell'utente:", userWord);
@@ -27,3 +28,13 @@ if (userWord === result) {
 } else {
     console.log('La parola NON è palindroma!');
 }
+
+
+
+
+
+
+// ! ESERCIZIO 2
+// Chiedere all'utente di scegliere tra pari o dispari
+const userChoice = prompt('Scegli tra pari o dispari!').trim();
+console.log("Scelta dell'utente:", userChoice);
