@@ -59,3 +59,16 @@ console.log("Numero random del computer:", random);
 // Somma dei due numeri
 const sum = userNumber + random;
 console.log("La somma è:", sum);
+
+// Funzione per stabilire se un numero è pari o dispari
+/**
+ * Declare if a number is even or odd
+ * @param {number} number number to be checked
+ * @returns {boolean} true if number is even and false if number is odd
+ */
+function isEven(number) {
+    return number % 2 === 0;
+}
+
+const winner = isEven(sum);
+console.log(winner);
