@@ -20,3 +20,10 @@ function reverseText(text) {
 
 const result = reverseText(userWord);
 console.log("Parola dell'utente al contrario:", result);
+
+// Capire se la parola dell'utente è palindroma
+if (userWord === result) {
+    console.log('La parola è palindroma!');
+} else {
+    console.log('La parola NON è palindroma!');
+}
