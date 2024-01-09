@@ -42,3 +42,16 @@ console.log("Scelta dell'utente:", userChoice);
 // Chiedere all'utente un numero da 1 a 5
 const userNumber = parseInt(prompt('Scegli un numero tra 1 e 5!'));
 console.log("Numero scelto dall'utente:", userNumber);
+
+// Funzione per generare un numero random da 1 a 5 per il computer
+/**
+ * Generate a random number
+ * @returns {number} random computer number
+ */
+function generateRandomNumber() {
+
+    return Math.floor(Math.random() * 5) + 1;
+}
+
+const random = generateRandomNumber();
+console.log("Numero random del computer:", random);
