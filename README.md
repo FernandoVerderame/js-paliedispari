@@ -19,3 +19,21 @@ Se ne avete tempo e voglia, provate a:
  raccogliere le informazioni dall'utente usando form, input, button in pagina invece che coi prompt.
 Stampare i risultati in pagina, invece che in console
 Buon lavoro e buon divertimento!
+
+
+
+
+## SCALETTA ESERCIZIO 1
+1. Chiedere all'utente una parola
+2. Creare una funzione per scrivere la parola dell'utente al contrario
+3. Verificare se la parola data dall'utente è palindroma
+
+
+
+## SCALETTA ESERCIZIO 2
+1. Chiedere all'utente di scegliere tra pari o dispari
+2. Chiedere all'utente un numero da 1 a 5
+3. Creare una funzione per generare un numero random da 1 a 5
+4. Sommare i due numeri
+5. Creare una funzione per stabilire se un numero è pari o dispari
+6. Stabilire il vincitore
