@@ -72,3 +72,10 @@ function isEven(number) {
 
 const winner = isEven(sum);
 console.log(winner);
+
+// Stabilire il vincitore
+if ((userChoice === 'pari' && winner === true) || (userChoice === 'dispari' && winner === false)) {
+    console.log("L'utente è il vincitore!");
+} else {
+    console.log("Il computer è il vincitore!");
+}
