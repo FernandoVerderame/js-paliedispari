@@ -50,7 +50,11 @@ form.addEventListener('submit', function(event) {
     const inputValue = inputField.value.trim();
 
     // ! Validazione 
-    if (!inputValue) return;
+    if (!inputValue) {
+        alert('Il testo deve essere lungo almeno 3 caratteri');
+        inputField.classList.add('is-invalid');
+        return;
+    }
 
     const result = reverseText(inputValue);
 
